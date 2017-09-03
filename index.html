@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<script  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<title>MacPato Developing...</title>
+  <meta charset="utf-8">
+
+	<style>
+		body{
+			background: #ccabab;
+		}
+		p{
+			color:red;
+		}
+	</style>
+
+  <script>
+ 
+  $(function() {
+    	$( "p" ).text( "MacPato-Developing..." );
+    var countClicks = 0;
+    $( 'button[id^="button"]' ).click(function() {
+		countClicks++;
+	  	console.log( "hola mac-people clickes:"+countClicks);
+	});
+  });
+ 
+  </script>
+ 
+</head>
+<body>
+ 
+	<P>Hola Mundo</P>
+ 	<button id="buttonId"  type="button" class="btn btn-success">clickMe</button>
+	<button id="buttonId1" type="button" class="btn">Basic</button>
+	<button id="buttonId2" type="button" class="btn btn-default">Default</button>
+	<button id="buttonId3" type="button" class="btn btn-primary">Primary</button>
+	<button id="buttonId4" type="button" class="btn btn-success">Success</button>
+	<button id="buttonId5" type="button" class="btn btn-info">Info</button>
+	<button id="buttonId6" type="button" class="btn btn-warning">Warning</button>
+	<button id="buttonId7" type="button" class="btn btn-danger">Danger</button>
+	<button id="buttonId8" type="button" class="btn btn-link">Link</button>
+ 
+</body>
+</html>
